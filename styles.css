@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+.sidebar ul{
+    background-color: #f1f1f1;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar li a {
+    font-size: 2vw;
+    display: block;
+    color: #000;
+    padding: 10% 35%;
+    text-decoration: none;
+}
+
+.sidebar li a:active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+ .sidebar li a:hover:not(:active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .topnav {
+   
+        background-color: #f1f1f1;
+        position: relative;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        border-bottom: solid black;
+  }
+
+  .topnav input{
+      position: absolute;
+      z-index: 1;
+      margin: 0;
+      top:0;
+      right: 0;
+  }
+  .topnav button{
+    position: absolute;
+    height: 45%;
+    z-index: 2;
+      top:0;
+      right: 0;
+    float: right;
+
+  }

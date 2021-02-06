@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+
+<%- include("./partials/head.ejs") %>
+
+<body>
+  
+
+  <div class="create-blog content">
+    <form action="/" method="POST">
+      <label for="title">Book title:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="Genre">Book Genre:</label>
+      <input type="text" id="Genre" name="Genre" required>
+      <label for="Author">Author:</label>
+      <input type="text" id="Author" name="Author" required>
+      <label for="Description">Book Description:</label>
+      <textarea id="Description" name="Description" required></textarea>
+      <button>Submit</button>
+    </form>
+  </div>
